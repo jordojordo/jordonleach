@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+/* Code Below */
+
+body {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Welcome Section */
+
+.nav-container {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3d293d;
+  text-shadow: 0 0 2px #ffffff
+}
+
+li a:hover {
+  color: #0f0a0f;
+}
+
+.intro {
+  top: 0;
+  min-height: 40vh;
+  padding-top: 0vh;
+  padding-bottom: 10vh;
+  background: linear-gradient(to bottom, #d6c2d6 0%, #e0d1e0 100%);
+}
+
+.container-img {
+  opacity: 0.4;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  top: 0px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+#about p {
+  padding: 15px;
+  color: #0f0f0f;
+  text-shadow: 0 0 10px #ffffff
+}
+
+#about h1 {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px;
+  border-bottom: 2px solid;
+  border-color: #5b3e5b;
+  text-shadow: 0 0 12px #ffffff
+}
+
+/* Projects Section */
+
+#projects {
+  background: linear-gradient(to bottom, #e0d1e0 0%, #c2d6d6 100%);
+  color: #141f1f;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.project-tile-column {
+  grid-area: 1;
+  width: 100%;
+}
+
+.frame {
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.project-header {
+  padding-bottom: 30px;
+}
+
+/* Contact Section */
+
+#contact {
+  background: #c2d6d6;
+}
+
+.bottom-border-class {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  padding: 10px;
+  border-bottom: 2px solid;
+  border-color: #5b3e5b;
+}
+
+.footer-text {
+  padding: 2vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-img {
+  padding: 2vh;
+}
+
+/* Media Queries */
