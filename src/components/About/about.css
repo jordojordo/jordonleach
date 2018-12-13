@@ -1,0 +1,18 @@
+.about-card {
+	background-color: transparent;
+	color: #FFE5D5;
+	position: absolute;
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-card h1 {
+	font-size: 1.4em;
+}
+
+.about-card p {
+	font-size: 1em;
+	font-weight: 500;
+	color: #FFE5D5;
+}

@@ -1,0 +1,16 @@
+.contactIcon {
+	fill: #FFE5D5;
+}
+
+.emailButton {
+	background: transparent;
+	padding: .2em;
+	border-radius: 10%;
+	color: #FFE5D5;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.emailButton:hover {
+	opacity: 0.6;
+}

@@ -1,0 +1,12 @@
+.card {
+  position: absolute;
+  background-color: #FFDAC1;
+  border-color: #E6A275;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 50%;
+  padding: 1em;
+  word-spacing: 10%;
+  text-align: center;
+}

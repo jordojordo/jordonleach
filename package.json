@@ -1,15 +1,31 @@
 {
-  "name": "jordonleach.com",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "jl-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "particles.js": "^2.0.0"
+    "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.5.2",
+    "react-particles-js": "^2.3.0",
+    "react-scripts": "2.0.5",
+    "tachyons": "^4.11.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "author": "",
-  "license": "ISC"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "tachyons": "^4.11.1"
+  }
 }

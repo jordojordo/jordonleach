@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Avenir', sans-serif;
+}
+
+.nav-container {
+  background: linear-gradient(to right, rgb(108, 127, 183), rgb(203, 211, 237));
+}
+
+.nav-container a {
+  color: #FFE5D5;
+}
+
+.navigation {
+	position: fixed;
+}
+
+.App {
+  text-align: center;
+}
+
+.center {
+  justify-content: center;
+}
+
+button {
+  background-color: transparent;
+  color: #FFE5D5;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #8d9cca;
+  background-image: url("./components/images/fiabwxoz.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  position: absolute;
+  background-color: transparent;
+  color: #FFE5D5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 50%;
+  padding: 1em;
+  word-spacing: 10%;
+  text-align: center;
+}
+
