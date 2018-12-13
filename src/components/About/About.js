@@ -5,7 +5,7 @@ import avatar from '../images/avatar.jpg';
 const About = () => {
 	return (
 		<div>
-			<article className="w-40 h-40 center br3 pa3 pa4-ns mv3 ba shadow-5 b--black-10 about-card">
+			<article className="w-70 h-60 center br3 pa3 pa4-ns mv3 ba shadow-5 b--black-10 about-card">
 			  <div className="tc">
 			    <img src={avatar} className="br-100 h3 w3 dib grow-large" alt="Jordo"/>
 			    <h1 className="f3">Jordon Leach</h1>
